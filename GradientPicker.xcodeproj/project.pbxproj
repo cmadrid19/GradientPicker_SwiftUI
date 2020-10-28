@@ -11,6 +11,9 @@
 		9EDE90142549976900944206 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE90132549976900944206 /* ContentView.swift */; };
 		9EDE90162549976B00944206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EDE90152549976B00944206 /* Assets.xcassets */; };
 		9EDE90192549976B00944206 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EDE90182549976B00944206 /* Preview Assets.xcassets */; };
+		9EDE90252549977F00944206 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE90242549977F00944206 /* Home.swift */; };
+		9EDE902925499E4D00944206 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE902825499E4D00944206 /* Gradient.swift */; };
+		9EDE902C2549A89C00944206 /* ColorCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDE902B2549A89C00944206 /* ColorCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		9EDE90152549976B00944206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EDE90182549976B00944206 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9EDE901A2549976B00944206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EDE90242549977F00944206 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9EDE902825499E4D00944206 /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		9EDE902B2549A89C00944206 /* ColorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,8 @@
 		9EDE90102549976900944206 /* GradientPicker */ = {
 			isa = PBXGroup;
 			children = (
+				9EDE90232549977500944206 /* Model */,
+				9EDE90212549977000944206 /* View */,
 				9EDE90112549976900944206 /* GradientPickerApp.swift */,
 				9EDE90132549976900944206 /* ContentView.swift */,
 				9EDE90152549976B00944206 /* Assets.xcassets */,
@@ -67,6 +75,23 @@
 				9EDE90182549976B00944206 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9EDE90212549977000944206 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9EDE90242549977F00944206 /* Home.swift */,
+				9EDE902B2549A89C00944206 /* ColorCard.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9EDE90232549977500944206 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9EDE902825499E4D00944206 /* Gradient.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +164,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EDE90142549976900944206 /* ContentView.swift in Sources */,
+				9EDE90252549977F00944206 /* Home.swift in Sources */,
 				9EDE90122549976900944206 /* GradientPickerApp.swift in Sources */,
+				9EDE902925499E4D00944206 /* Gradient.swift in Sources */,
+				9EDE902C2549A89C00944206 /* ColorCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +297,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"GradientPicker/Preview Content\"";
+				DEVELOPMENT_TEAM = 4YGTHSUB42;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = GradientPicker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -290,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"GradientPicker/Preview Content\"";
+				DEVELOPMENT_TEAM = 4YGTHSUB42;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = GradientPicker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
